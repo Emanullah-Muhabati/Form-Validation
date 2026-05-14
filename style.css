@@ -1,0 +1,116 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.right-section{
+  width: 60%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+/* https://grabient.com/HQFgzAbANKAcswKwHYQwAwE50eZp6YGIAjDJhPsOllBNYolCKOk9SSUA?style=linearSwatches&angle=315 */
+
+background: linear-gradient(315deg, #856cff 0.000%, #856cff 10.000%, #8568ff calc(10.000% + 1px), #8568ff 20.000%, #846eff calc(20.000% + 1px), #846eff 30.000%, #847aff calc(30.000% + 1px), #847aff 40.000%, #8487ff calc(40.000% + 1px), #8487ff 50.000%, #838fff calc(50.000% + 1px), #838fff 60.000%, #8390ff calc(60.000% + 1px), #8390ff 70.000%, #8387ff calc(70.000% + 1px), #8387ff 80.000%, #827aff calc(80.000% + 1px), #827aff 90.000%, #826eff calc(90.000% + 1px) 100.000%);
+}
+.left-section{
+  width: 40%;
+  height: 100vh;
+  padding: 20px;
+  background-image: url('computer-4795762_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  width: 50%;
+  height: 60%;
+  padding: 20px 30px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: radial-gradient( circle 476px at 54.8% 51.5%,  rgba(168,229,253,1) 0%, rgba(244,244,254,1) 42.3%, rgba(244,244,254,1) 100.2% );
+}
+
+.form-inputs{
+  margin-bottom: 15px;
+}
+
+.form-inputs label{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.form-inputs input{
+  width: 100%;
+  padding: 15px 0 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-inputs small{
+  color: red;
+  visibility: hidden;
+}
+
+.form-inputs.error small{
+  visibility: visible;
+}
+
+.form-inputs.error input{
+  border-color: red;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #4568DC 0%, #B06AB3 51%, #4568DC 100%);
+}
+
+.btn-grad {
+  margin-top: 30px;
+  width:100%;
+  font-size:20px;
+  cursor: pointer;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad:active {
+  transform: scale(0.95);
+}
